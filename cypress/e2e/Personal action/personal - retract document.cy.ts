@@ -1,0 +1,10 @@
+it('Personal - Upload - Share - Retract', () => {
+    cy.login()
+    cy.assertDocList()
+    cy.uploadFile()
+    cy.addRecipient_PersonalSigner()
+    cy.placementSignature()
+    cy.finishButton()
+    cy.moreBtnDocView()
+    cy.retractDocView()
+})

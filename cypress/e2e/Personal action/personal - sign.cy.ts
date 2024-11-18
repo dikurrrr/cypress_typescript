@@ -1,0 +1,11 @@
+it('Personal - Document_List - Sign', () => {
+    cy.login('recipient first')
+    cy.assertDocList()
+    cy.FiltertoSign()
+    cy.assertDocList()
+    cy.clickButtonQuickAction()
+    cy.selectOTPMethod('email')
+    cy.inputOTP('devdi4567')
+    cy.confirmButton()
+    cy.klirkuki()
+})

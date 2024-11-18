@@ -1,0 +1,13 @@
+it('Add New Department', () => {
+    cy.loginCommandCenter()
+    cy.pageUserRoles()
+    cy.pageDepartment()
+    cy.buttonAddDepartment()
+    cy.departmentName()
+    cy.shortnameDepartment()
+    cy.parentDepartment()
+    cy.descriptionDepartment()
+    cy.colorDepartment()
+    cy.buttonCreateDepartment()
+    cy.klirkuki()
+})

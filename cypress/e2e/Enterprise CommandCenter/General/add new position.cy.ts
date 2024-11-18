@@ -1,0 +1,12 @@
+it('Add New Position', () => {
+    cy.loginCommandCenter()
+    cy.pageUserRoles()
+    cy.pagePosition()
+    cy.wait(3000).buttonAddPosition()
+    cy.inputNewPosition()
+    cy.inputShortNamePosition()
+    cy.selectParentPosition()
+    cy.chooseDepartment()
+    cy.buttonCreatePosition()
+    cy.klirkuki()
+})
