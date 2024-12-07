@@ -1,4 +1,4 @@
-# cypress-automation-web-privy-revamp
+# cypress automation
 
 ## Before starting you must complete the following steps :
 1. cd cypress-automation-web-privy-revamp
